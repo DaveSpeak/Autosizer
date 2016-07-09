@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	background: #ffffff;
+	font-size: 18px;
+	line-height: 27px;
+}
+.wrapper {
+	width: 1024px;
+	margin: 40px auto;
+}
+#main-content,
+#sidebar {
+	width: 500px;
+	padding: 30px;
+}
+#main-content {
+	float: left;
+	background: #fff;
+}
+#sidebar {
+	float: right;
+	background: #eee;
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-color: #333;
+	}
+
+	.wrapper {
+		width: 600px;
+	}
+#sidebar {
+	width:100%;
+	margin-top:40px;
+	padding:30px;
+}	
+#main-content {
+	width:100%;
+/*	margin:0 5% 20px 5%;
+*/	margin-bottom:20px;
+}
+.wrapper{
+	width:100%;
+	padding:30px;
+}
+}
